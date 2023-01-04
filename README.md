@@ -1,5 +1,5 @@
 # Sea Turtles tracking by YOLOv5 and SORT
-
+### Sea Turtle Detection and Counting System for Aerial Videos based on the Deep Learning Technique
 This project has 3 major steps to achieve the purpose of getting the total amount of sea turtles in a drone video.
 
 1. Detecting the sea turtles using YOLOv5.
