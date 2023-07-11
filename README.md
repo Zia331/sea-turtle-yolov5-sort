@@ -8,6 +8,22 @@ This project has 3 major steps to achieve the purpose of getting the total amoun
 
 After these 3 steps, we get the number of sea turtles detected in a given drone video.
 
+## Example of Usage
+### Detection
+```
+python detect.py --weights best.pt --save-txt --save-conf --source C:\YOUR_DESTINATION_TO_SOURCE_FILE
+```
+### Tracking
+```
+# Tracking with a model trained with videos that were captured with the highest height of 50m from surface.
+python track.py --save-txt --save-vid --yolo_model ./yolov5/yolov5s_50m.pt --source
+```
+### Counting
+```
+# Count by doing calculation to the tracked files in a folder.
+python count.py --source C:\YOUR_DESTINATION_TO_TRACKED_FILES
+```
+
 ## Cites
 ### SORT
 ```
